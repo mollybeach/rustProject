@@ -25,6 +25,11 @@ pub fn run(){
     for word in hello.split_whitespace(){
         println!("{}", word);
     }
+    //Create string with capacity
+    let mut s = String::with_capacity(10);
+    s.push('a');
+    s.push('b');
+    println!("{}", s);
 
 
 }
