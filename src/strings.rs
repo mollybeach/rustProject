@@ -16,9 +16,15 @@ pub fn run(){
     println!("Capacity: {}", hello.capacity());
     //Check if empty
     println!("Is Empty: {}", hello.is_empty());
-    //Contains
+    //Contains a sub string
     println!("Contains 'World': {}", hello.contains("World"));
     //Replace
     println!("Replace: {}", hello.replace("World", "There"));
+    //Loop through string by whitespace
+    //split by whitespace
+    for word in hello.split_whitespace(){
+        println!("{}", word);
+    }
+
 
 }
