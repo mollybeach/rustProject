@@ -29,7 +29,25 @@ pub fn run(){
     let mut s = String::with_capacity(10);
     s.push('a');
     s.push('b');
+        // Assertion testing
+    assert_eq!(2, s.len());
+    /* result: nothing */
+
+    //only gives a result if the test fails
+    assert_eq!(3, s.len());
+    /*  
+    result:
+    thread 'main' panicked at 'assertion failed: `(left == right)`
+        left: `3`,
+        right: `2`', src/strings.rs:36:5*/
+
+
     println!("{}", s);
+
+
+
+
+    
 
 
 }
