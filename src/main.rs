@@ -1,6 +1,7 @@
-mod print; //mod is a keyword that allows us to create a module
+//mod print; //mod is a keyword that allows us to create a module
+mod vars;
 fn main() {
-    print::run();
+    /*
     //Print to console
     println!("Number: {}", 1);
     //Basic Formatting
@@ -13,4 +14,8 @@ fn main() {
     println!("Binary: {:b} Hex: {:x} Octal: {:o}", 10, 10, 10);
     // Basic math
     println!("10 + 10 = {}", 10 + 10);
+    */
+
+    //print::run();
+    vars::run();
 }
