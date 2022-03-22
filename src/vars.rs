@@ -10,6 +10,8 @@ pub fn run() {
     println!("My name is {} and I am {}", name, age);
 
     //Define constant
+    // Don't use constant that often
+    // You have to define a type for it
     const ID: i32 = 001;
     println!("ID: {}", ID);
 
