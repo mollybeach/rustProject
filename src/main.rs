@@ -1,5 +1,6 @@
 //mod print; //mod is a keyword that allows us to create a module
-mod vars;
+//mod vars;
+mod types;
 fn main() {
     /*
     //Print to console
@@ -17,5 +18,6 @@ fn main() {
     */
 
     //print::run();
-    vars::run();
+    //vars::run();
+    types::run();
 }
