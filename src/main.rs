@@ -11,4 +11,6 @@ fn main() {
     println!("{name} likes to play {activity}", name="John", activity="Baseball");
     //Placeholder traits
     println!("Binary: {:b} Hex: {:x} Octal: {:o}", 10, 10, 10);
+    // Basic math
+    println!("10 + 10 = {}", 10 + 10);
 }
