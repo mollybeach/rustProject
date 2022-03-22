@@ -40,7 +40,8 @@ pub fn run(){
     thread 'main' panicked at 'assertion failed: `(left == right)`
         left: `3`,
         right: `2`', src/strings.rs:36:5*/
-
+    // check if 10 is equal to the string capacity
+    assert_eq!(10, s.capacity());
 
     println!("{}", s);
 
