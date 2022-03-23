@@ -18,5 +18,18 @@ pub fn run() {
     //Assign multiple vars
     let (my_name, my_age) = ("Brad", 37);
     println!("{} is {}", my_name, my_age);
-    
+
 }
+
+
+/*Above, you might notice the rustc compiler is giving two suggestions for your code.
+
+Task: Follow the compiler's advice to convert the variable name into snake_case.
+
+It is convention in Rust to use snake_case for:
+
+- Variable names
+- Function names
+- File names
+
+SCREAMING_SNAKE_CASE is used for constants and statics. Lastly, PascalCase is used for types, traits, and enums (we will cover these later).*/

@@ -45,10 +45,54 @@ pub fn run(){
 
     println!("{}", s);
 
-
-
+/*
+    fn main() {
+        let first_name = String::from("Bryan Gula"); // value type copy struct
+        //let name = String::from(first_name);
+        let name = first_name;
+        println!("{}", name);
+        println!("{}", first_name);  
+        
+       
+       
+        
+        
+      }*/
+      
 
     
 
 
 }
+
+/*
+LESSON #14
+
+
+Task: Run your code. You should not see the error anymore.
+
+When you are done, type the following for the next lesson:
+    $ fcc 15
+
+ fcc 15
+
+LESSON #15
+
+
+You want to add your surname (second name) to name.
+
+There are many ways to do this in Rust. If you try to just concatenate " Surname" to &first_name, Rust will error, because you cannot concatenate to a referenced value.
+
+You could remove the &, but then the second println! will cause the program to panic.
+
+In order to concatenate a reference to a str (&str), the first argument needs to be owned. A String can be used as an owned value with the to_owned method:
+
+    let owned_string = my_string.to_owned() + " Surname";
+
+Task: Instead of moving first_name, turn it into an owned value, and concatenate your surname to it - assigning the result to name.
+
+Run your code. If it compiles and prints the two lines, you have completed the lesson correctly. If not, use the output to debug and fix your code.
+
+When you are done, type the following for the next lesson:
+    $ fcc 16
+*/
